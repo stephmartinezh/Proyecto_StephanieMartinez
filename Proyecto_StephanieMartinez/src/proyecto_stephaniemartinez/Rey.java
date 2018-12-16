@@ -1,9 +1,8 @@
-
 package proyecto_stephaniemartinez;
 
-
 public class Rey extends Piezas {
-      int x;
+
+    int x;
     int y;
     int xFinal;
     int yFinal;
@@ -48,9 +47,9 @@ public class Rey extends Piezas {
     public void setY(int y) {
         this.y = y;
     }
-    
+
     @Override
-    public boolean Validacion(){
+    public boolean Validacion() {
         return condicion;
     }
 }
